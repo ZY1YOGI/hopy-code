@@ -1,0 +1,89 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+@import "./init.css";
+
+body {
+    box-shadow: inset 0 0 8px rgba(0, 255, 87, 0.5);
+}
+
+.border_gradient {
+    border-image: linear-gradient(0.25turn, #04a0a0, #78d85f, #04a0a0);
+    border-image-slice: 1;
+    border-bottom-color: transparent;
+}
+
+.negative {
+    @apply flex transition items-center justify-center space-x-8 max-md:space-x-0 max-md:space-y-5 max-md:border-4 max-md:border-teal-800 rounded-xl max-md:flex-col max-md:items-stretch max-md:absolute max-md:top-[85%] max-md:left-[55%] max-md:py-5 dark:text-teal-200 max-md:hidden max-md:bg-body-light max-md:dark:bg-body-dark;
+}
+
+.nav-link a {
+    @apply p-2 ease-in-out border-white hover:border-y-2 rounded-xl max-md:shadow max-md:rounded max-md:border-x-4 max-md:border-x-teal-900 max-md:inline-block max-md:w-full max-md:px-8 max-md:py-1;
+}
+
+.btn-search {
+    @apply p-2.5 hover:bg-gray-900 dark:text-white hover:text-white hover:dark:bg-slate-700 transition duration-150 ease-out rounded-xl max-md:shadow max-md:rounded max-md:border-x-4 max-md:border-x-teal-900 max-md:inline-block max-md:w-full max-md:px-8 max-md:py-1;
+}
+
+.btn-theme {
+    @apply p-2 ease-out hover:bg-gray-900 hover:text-white dark:text-white hover:dark:bg-slate-700 rounded-xl max-md:shadow max-md:rounded max-md:border-x-4 max-md:border-x-teal-900 max-md:inline-block max-md:w-full max-md:px-8 max-md:py-1;
+}
+
+.btn-auth {
+    @apply px-6 py-2 text-sm font-bold text-teal-100 transition bg-black dark:bg-gray-50 dark:text-teal-800 hover:bg-teal-800 dark:hover:bg-teal-100 rounded-xl;
+}
+
+.testing {
+    color: #20968e;
+}
+
+.hero-img {
+    @apply w-1/2;
+    animation: up-down 1.9s ease-in-out infinite alternate-reverse both;
+}
+
+.client-img {
+    @apply w-auto h-20 py-5 mx-auto transition-all duration-300 grayscale hover:grayscale-0 hover:scale-110;
+}
+
+@keyframes up-down {
+    0% {
+        transform: translateY(10px);
+    }
+    100% {
+        transform: translateY(-10px);
+    }
+}
+
+.b-t {
+    @apply border-4 border-black;
+}
+
+@layer components {
+    .text-shadow {
+        text-shadow: 0 0 1px #00a550;
+    }
+}
+
+.splash {
+    position: fixed;
+    z-index: 9999999;
+    background: #fff;
+    width: 100%;
+    height: 100%;
+}
+
+.splash {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.splash img {
+    width: 300px;
+}
