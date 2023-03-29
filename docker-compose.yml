@@ -11,24 +11,24 @@ services:
             MYSQL_USER: '${DB_USERNAME}'
             MYSQL_PASSWORD: '${DB_PASSWORD}'
         volumes:
-            - 'sail-mysql:/var/lib/mysql'
+            - 'mysql:/var/lib/mysql'
         networks:
-            - sail
+            - app
 
     redis:
         image: 'redis:alpine'
         ports:
             - '${FORWARD_REDIS_PORT:-6379}:6379'
         volumes:
-            - 'sail-redis:/data'
+            - 'redis:/data'
         networks:
-            - sail
+            - app
 
 networks:
-    sail:
+    app:
         driver: bridge
 volumes:
-    sail-mysql:
+    mysql:
         driver: local
-    sail-redis:
+    redis:
         driver: local
