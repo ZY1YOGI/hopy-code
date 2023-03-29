@@ -13,6 +13,5 @@
     </div>
   </div>
   @endif
-
   {{ $slot }}
 </section>

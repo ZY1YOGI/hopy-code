@@ -21,10 +21,6 @@
   {{-- AOS --}}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-  {{-- SwiperJS --}}
-  {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.css" /> --}}
-  {{-- <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/9.1.1/swiper-bundle.min.js" defer></script> --}}
-  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-element-bundle.min.js"></script>
   {{-- Scripts And STYLS --}}
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>

@@ -1,5 +1,6 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
+    darkMode: "class",
     content: [
         './resources/views/**/*.blade.php',
         './resources/views/components/*.blade.php',
@@ -10,7 +11,7 @@ module.exports = {
             colors: {
                 body: {
                     light: "#E4E9F7",
-                    dark: "#0e1422",
+                    dark: "#18191a",
                 },
                 primary: "#20968e"
             },
