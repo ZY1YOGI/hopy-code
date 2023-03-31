@@ -15,5 +15,5 @@ window.addEventListener("DOMContentLoaded", function () {
 });
 
 window.onload = () => {
-    document.getElementById("splash").style.display = "none";
+    document.getElementById("loader").style.display = "none";
 }

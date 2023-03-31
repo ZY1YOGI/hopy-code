@@ -14,7 +14,7 @@
   {{-- Title --}}
   <title>{{ $title }}</title>
   {{-- Icon --}}
-  <link rel="shortcut icon" href={{ Vite::asset('resources/image/logo.png') }} type="image/x-icon" />
+  <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   {{-- Fonts --}}
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" />
@@ -25,15 +25,9 @@
   @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="antialiased bg-body-light dark:bg-body-dark">
-  <!-- loader  -->
-  <div class="splash" id="splash">
-    <div class="splash"><img src="{{ Vite::asset('resources/image/loading.gif') }}" alt="#" /></div>
-  </div>
-  <!-- end loader -->
+  @include('layouts.includes.loader')
   @include('layouts.header')
   {{ $slot }}
   @include('layouts.footer')
 </body>
 </html>
-
-{{-- transition-all duration-75 --}}

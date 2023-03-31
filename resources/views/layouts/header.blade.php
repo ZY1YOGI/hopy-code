@@ -2,7 +2,7 @@
 
   <nav class="flex justify-between items-center px-[3%] py-1">
     <div class="flex items-center justify-center space-x-3 cursor-pointer">
-      <img src={{ Vite::asset('resources/image/logo.png') }} alt="" class="w-8 h-auto rounded-full" />
+      <img src={{ Vite::asset('resources/image/logo.png') }} alt="" class="h-auto rounded-full w-7" />
       <h1 class="text-xl dark:text-teal-50">Al-Jazira</h1>
     </div>
     <ul id="mune" class="negative">
