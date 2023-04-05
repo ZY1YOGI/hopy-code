@@ -3,35 +3,13 @@
 @import "tailwindcss/utilities";
 @import "./init.css";
 @import "./loader.css";
+@import "./components/header.css";
 
-body {
-    box-shadow: inset 0 0 8px rgba(0, 255, 87, 0.5);
-}
 
 .border_gradient {
-    border-image: linear-gradient(0.25turn, #04a0a0, #78d85f, #04a0a0);
+    border-image: linear-gradient(0.25turn, #a7acac, #000000, #a7acac);
     border-image-slice: 1;
     border-bottom-color: transparent;
-}
-
-.negative {
-    @apply flex transition items-center justify-center space-x-8 max-md:space-x-0 max-md:space-y-5 max-md:border-4 max-md:border-teal-800 rounded-xl max-md:flex-col max-md:items-stretch max-md:absolute max-md:top-[85%] max-md:left-[55%] max-md:py-5 dark:text-teal-200 max-md:hidden max-md:bg-body-light max-md:dark:bg-body-dark;
-}
-
-.nav-link a {
-    @apply p-2 ease-in-out border-white hover:border-y-2 rounded-xl max-md:shadow max-md:rounded max-md:border-x-4 max-md:border-x-teal-900 max-md:inline-block max-md:w-full max-md:px-8 max-md:py-1;
-}
-
-.btn-search {
-    @apply p-2.5 hover:bg-gray-900 dark:text-white hover:text-white hover:dark:bg-slate-700 transition duration-150 ease-out rounded-xl max-md:shadow max-md:rounded max-md:border-x-4 max-md:border-x-teal-900 max-md:inline-block max-md:w-full max-md:px-8 max-md:py-1;
-}
-
-.btn-theme {
-    @apply p-2 ease-out hover:bg-gray-900 hover:text-white dark:text-white hover:dark:bg-slate-700 rounded-xl max-md:shadow max-md:rounded max-md:border-x-4 max-md:border-x-teal-900 max-md:inline-block max-md:w-full max-md:px-8 max-md:py-1;
-}
-
-.btn-auth {
-    @apply px-6 py-2 text-sm font-bold text-teal-100 transition bg-black dark:bg-gray-50 dark:text-teal-800 hover:bg-teal-800 dark:hover:bg-teal-100 rounded-xl;
 }
 
 .testing {
@@ -62,6 +40,10 @@ body {
 
 @layer components {
     .text-shadow {
+        text-shadow: 0 0 1px #00a550;
+    }
+
+    .text-shadow-wh {
         text-shadow: 0 0 1px #00a550;
     }
 }

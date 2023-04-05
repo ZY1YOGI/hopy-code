@@ -16,8 +16,8 @@
   {{-- Icon --}}
   <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
   {{-- Fonts --}}
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" />
+  {{-- <link rel="preconnect" href="https://fonts.googleapis.com"> --}}
+  {{-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" /> --}}
   {{-- AOS --}}
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
   <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>

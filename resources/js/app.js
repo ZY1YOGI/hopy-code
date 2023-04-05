@@ -12,8 +12,9 @@ window.addEventListener("DOMContentLoaded", function () {
         document.documentElement.className = "dark";
         document.documentElement.setAttribute("data-theme", "dark");
     }
+    document.getElementById("loader").style.display = "none";
 });
 
 window.onload = () => {
-    document.getElementById("loader").style.display = "none";
+    // setTimeout(()=> { },300)
 }
