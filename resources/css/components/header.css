@@ -2,7 +2,7 @@
     @apply flex transition items-center justify-center space-x-8 max-md:space-x-0 max-md:space-y-5
     max-md:border-4 max-md:border-x-white max-md:border-y-red-700 rounded-xl max-md:flex-col
     max-md:items-stretch max-md:absolute max-md:top-[85%] max-md:left-[55%]
-    max-md:py-5 dark:text-white max-md:hidden max-md:bg-body-light max-md:dark:bg-body-dark z-50;
+    max-md:py-5 dark:text-white max-md:hidden max-md:bg-body-light max-md:dark:bg-body-dark z-50 max-lg:text-sm;
 }
 
 .nav-link a {
@@ -10,19 +10,17 @@
 }
 
 .btn-search {
-    @apply p-2.5 hover:bg-gray-900 dark:text-white hover:text-white hover:dark:bg-slate-700 transition
-    duration-150 ease-out rounded-xl;
+    @apply p-2.5 hover:scale-125 transition duration-300 ease-out rounded-xl;
+}
+
+.btn-auth {
+    @apply p-2.5 hover:scale-125 transition duration-300 ease-out rounded-xl;
 }
 
 .btn-theme {
     @apply fixed px-5 py-2 border -right-2 hover:bg-gray-900 hover:text-white dark:text-white hover:dark:bg-slate-700 rounded-xl top-36 border-stone-500;
 }
 
-.btn-auth {
-    @apply px-6 py-2 text-sm font-bold text-white bg-black max-md:dark:border-x-white dark:bg-gray-50 dark:text-slate-800 hover:bg-slate-900 dark:hover:bg-gray-100 rounded-xl max-md:hidden;
-}
-
 .btn-subscribe {
     @apply px-6 py-2 text-sm font-bold text-white transition bg-red-500 max-md:text-xs max-md:dark:border-x-white dark:bg-gray-50 dark:text-slate-800 hover:bg-slate-900 dark:hover:bg-gray-100 rounded-xl;
-
 }

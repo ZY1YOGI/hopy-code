@@ -15,6 +15,8 @@ window.addEventListener("DOMContentLoaded", function () {
     document.getElementById("loader").style.display = "none";
 });
 
-window.onload = () => {
-    // setTimeout(()=> { },300)
-}
+// window.onload = () => {
+//     setTimeout(()=> {
+
+//      },300)
+// }
