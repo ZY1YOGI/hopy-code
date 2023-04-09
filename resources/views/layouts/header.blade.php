@@ -1,13 +1,13 @@
 <header class="z-40 py-3 shadow shadow-stone-600/50 max-md:relative max-md:py-1">
 
   <nav class="flex justify-between items-center px-[3%] py-1">
-    <div class="flex items-center justify-center space-x-3 cursor-pointer">
+    <div class="flex items-center justify-center space-x-3 cursor-pointer max-md:space-x-1">
       <img src={{ Vite::asset('resources/image/logo.png') }} alt="" class="w-12 h-auto rounded-full" />
-      <h1 class="text-xl dark:text-teal-50">Code</h1>
+      <h1 class="font-bold dark:text-teal-50">Simple Web Code</h1>
     </div>
     <ul id="negative" class="negative" role="navigation">
       <x-ui.nav-link to="{{ route('home') }}">Home</x-ui.nav-link>
-      <x-ui.nav-link to="{{ route('home') }}">Vedioes</x-ui.nav-link>
+      <x-ui.nav-link to="{{ route('home') }}">Videos</x-ui.nav-link>
       <x-ui.nav-link to="{{ route('home') }}">Posts</x-ui.nav-link>
       <x-ui.nav-link to="{{ route('home') }}">About Us</x-ui.nav-link>
       <x-ui.nav-link to="{{ route('home') }}">Contact Us</x-ui.nav-link>

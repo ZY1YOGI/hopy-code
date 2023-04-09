@@ -1,6 +1,7 @@
 import.meta.glob(["../image/**"]);
 
-AOS.init();
+AOS.init()
+
 
 window.addEventListener("DOMContentLoaded", function () {
     const theme = localStorage.getItem("theme") ?? localStorage.setItem("theme", "light");

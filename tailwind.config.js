@@ -2,8 +2,8 @@
 module.exports = {
     darkMode: "class",
     content: [
+        './resources/views/*.blade.php',
         './resources/views/**/*.blade.php',
-        './resources/views/components/*.blade.php',
         './storage/framework/views/*.php',
     ],
     theme: {

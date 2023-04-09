@@ -6,7 +6,7 @@
         <div class="w-full mb-10">
           <div href="#" class="mb-6 inline-block max-w-[160px] cursor-pointer">
             <img src={{ Vite::asset('resources/image/logo.png') }} alt="" class="w-10 h-auto rounded-full" />
-            <h1 class="text-xl dark:text-teal-50">Code</h1>
+            <h1 class="text-xl dark:text-teal-50">Simple Web Code</h1>
           </div>
           <p class="text-base text-body-color mb-7">
             Sed ut perspiciatis undmnis is iste natus error sit amet voluptatem

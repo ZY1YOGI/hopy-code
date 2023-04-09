@@ -10,7 +10,7 @@
 }
 
 .btn-search {
-  @apply p-2.5 hover:scale-125 transition duration-300 ease-out rounded-xl;
+  @apply p-2.5 hover:scale-125 transition duration-300 ease-out rounded-xl dark:text-white;
 }
 
 .btn-auth {
@@ -18,9 +18,5 @@
 }
 
 .btn-theme {
-  @apply fixed px-5 py-2 border -right-2 hover:bg-gray-900 hover:text-white dark:text-white hover:dark:bg-slate-700 rounded-xl top-36 border-stone-500;
-}
-
-.btn-subscribe {
-  @apply px-6 py-2 text-sm font-bold text-white transition bg-red-500 max-md:text-xs max-md:dark:border-x-white dark:bg-gray-50 dark:text-slate-800 hover:bg-slate-900 dark:hover:bg-gray-100 rounded-xl;
+  @apply fixed px-3 py-2 border -right-2 hover:bg-gray-900 hover:text-white dark:text-white hover:dark:bg-slate-700 rounded-xl top-36 border-stone-500;
 }
