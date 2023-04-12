@@ -4,7 +4,7 @@
   <x-section name="main" class="h-[80vh] border-b border_gradient">
     <div class="container flex flex-col items-center justify-center h-full mx-auto space-y-5 text-center">
 
-      <h3 class="text-3xl font-medium text-indigo-600 max-md:text-xl" data-aos="fade-down">Welocme To</h3>
+      <h3 class="text-3xl font-medium text-indigo-600 max-md:text-xl" data-aos="fade-down">Welcome To</h3>
       <h1 class="text-5xl font-bold max-md:text-3xl dark:text-white" data-aos="zoom-in">SIMPLE WEB CODE</h1>
       <P class="px-40 text-gray-800 max-md:px-3 max-md:text-xs dark:text-gray-300" data-aos="fade-up">Lorem ipsum dolor sit amet consectetur adipisicing elit. Amet atque natus corrupti eaque, eum maiores mollitia dignissimos vel doloribus, consequuntur quia laudantium.</P>
       <a href="https://www.youtube.com/@simple-web-code" class="px-5 py-3 rounded-lg b-t dark:text-white">Subscribe Now</a>
