@@ -21,3 +21,24 @@ window.addEventListener("DOMContentLoaded", function () {
 
 //      },300)
 // }
+
+
+
+new Swiper(".testimonial", {
+  slidesPerView: 1,
+  grabCursor: true,
+  loop: true,
+  autoplay: {
+      delay: 1000,
+      disableOnInteraction: false,
+  },
+  speed:500,
+  pagination: {
+    el: ".swiper-paginationn",
+    clickable: true,
+  },
+  navigation: {
+    nextEl: ".swiper-button-nextt",
+    prevEl: ".swiper-button-prevv",
+  },
+});
