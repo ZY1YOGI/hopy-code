@@ -9,6 +9,11 @@
   @apply p-2 font-medium ease-in-out border-white max-md:dark:border-x-white hover:border-y-2 rounded-xl max-md:shadow max-md:rounded max-md:border-x-4 max-md:border-x-gray-900 max-md:inline-block max-md:w-full max-md:px-8 max-md:py-1;
 }
 
+.nav-link a.active {
+  @apply text-[#ed1d24] border-b border-[#ed1d24];
+}
+
+
 .btn-search {
   @apply p-2.5 hover:scale-125 transition duration-300 ease-out rounded-xl dark:text-white;
 }
