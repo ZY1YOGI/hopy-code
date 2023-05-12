@@ -128,5 +128,11 @@
 
     </x-section>
 
+    <x-section name="more-videos" class="more-videos">
+        <h1>More than 100 Videos for <br><span> Web Design</span></h1>
+    </x-section>
+
+
+    <textarea class="w-full h-[50vh] border border-red-500 p-12 container mx-auto" id="html-code"></textarea>
 
 </x-app-layout>
