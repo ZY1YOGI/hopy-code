@@ -1,6 +1,6 @@
 <x-app-layout title="Home">
 
-
+    {{--
     <x-section name="main" class="flex items-center justify-center h-screen home">
         <div class="w-[90%] h-full flex justify-between items-center">
             <div class="div-text text-[#121416] dark:text-[#e6e6e6] text-[40px] mb-5">
@@ -43,133 +43,56 @@
                 </div>
             </div>
         </div>
-    </x-section>
+    </x-section> --}}
 
-    <x-section name="services" class="wrapperr">
-        <div class="top-sec">
-            <h1>Learn with us</h1>
+    <x-section name="services" class="service">
+        <div class="text-center">
+            <h1 class="text-5xl font-bold py-2 dark:text-white decoration-slice underline rounded-lg underline-offset-[5px] decoration-red-600 tracking-widest cursor-pointer" data-aos="fade-up" data-aos-delay="200">
+                Services
+            </h1>
+            <p class="text-gray-700 capitalize dark:text-gray-300" data-aos="fade-down">
+                Here are all the courses that we offer, from scratch to professionalism. We offer courses in several
+                magazines, and more are constantly being added
+            </p>
         </div>
 
-        <div class="container">
-            <div class="card">
-                <img src={{ Vite::asset('resources/image/card-img2.png') }} alt="">
+        <div class="container mx-auto flex justify-center items-center flex-nowrap max-md:flex-col max-md:space-y-6">
+            <div class="card-service">
+                <img src={{ Vite::asset('resources/image/card-img2.png') }} alt="" />
                 <h2>Website Design</h2>
-                <p>I offer Custom coded, Pixel-Perfect, Creative and Professional Websites to drive success for your
+                <p class="text-gray-500">I offer Custom coded, Pixel-Perfect, Creative and Professional Websites to drive success for your
                     business.</p>
-                <br>
                 <div class="explore-btn">
                     <a href="#">Explore <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
-            <div class="card">
+            <div class="card-service">
                 <img src={{ Vite::asset('resources/image/card-img2.png') }} alt="">
                 <h2>Website Development</h2>
-                <p>Simple PDFs into editable forms that can be easily filled and submitted digitally for improved
+                <p class="text-gray-500">Simple PDFs into editable forms that can be easily filled and submitted digitally for improved
                     efficiency.</p>
-                <br>
                 <div class="explore-btn">
                     <a href="#">Explore <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
 
-            <div class="card">
+            <div class="card-service">
                 <img src={{ Vite::asset('resources/image/card-img3.png') }} alt="">
                 <h2>WordPress Website</h2>
-                <p>Providing custom, user-friendly and visually appealing websites for businesses and individuals.</p>
-                <br>
+                <p class="text-gray-500">Providing custom, user-friendly and visually appealing websites for businesses and individuals.</p>
                 <div class="explore-btn">
                     <a href="#">Explore <i class="fa fa-arrow-right"></i></a>
                 </div>
             </div>
         </div>
 
-    </x-section>
-
-
-    <x-section name="videos" class="videos-home">
-        <div class="top-sec">
-            <h1>Latest Projects</h1>
-        </div>
-
-        <div class="cards-videos">
-            <div class="card">
-                <img src="img/project25.png" alt="">
-                <div class="text">
-                    <h3>Landing Page Car</h3>
-                    <div class="btns">
-                        <a href="#" class="btn">Watch Now</a>
-                        <a href="#" class="btn">Source Code</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="img/project5.png" alt="">
-                <div class="text">
-                    <h3>Portfolio Website</h3>
-                    <div class="btns">
-                        <a href="#" class="btn">Watch Now</a>
-                        <a href="#" class="btn">Source Code</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="img/project9.png" alt="">
-                <div class="text">
-                    <h3>Landing Page Resturant</h3>
-                    <div class="btns">
-                        <a href="#" class="btn">Watch Now</a>
-                        <a href="#" class="btn">Source Code</a>
-                    </div>
-                </div>
-            </div>
-
-
-            <div class="card">
-                <img src="img/project25.png" alt="">
-                <div class="text">
-                    <h3>Landing Page Car</h3>
-                    <div class="btns">
-                        <a href="#" class="btn">Watch Now</a>
-                        <a href="#" class="btn">Source Code</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="img/project5.png" alt="">
-                <div class="text">
-                    <h3>Portfolio Website</h3>
-                    <div class="btns">
-                        <a href="#" class="btn">Watch Now</a>
-                        <a href="#" class="btn">Source Code</a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="card">
-                <img src="img/project9.png" alt="">
-                <div class="text">
-                    <h3>Landing Page Resturant</h3>
-                    <div class="btns">
-                        <a href="#" class="btn">Watch Now</a>
-                        <a href="#" class="btn">Source Code</a>
-                    </div>
-                </div>
-            </div>
-
-        </div>
-
-        <a href="#" class="btn">More Videos</a>
     </x-section>
 
 
     <x-section name="videos" class="py-10">
         <div class="text-center">
-            <h1 class="text-5xl font-bold py-2 dark:text-white decoration-slice underline rounded-lg underline-offset-[5px] decoration-indigo-700 tracking-widest cursor-pointer"
-                data-aos="fade-up" data-aos-delay="200">
-                videos
+            <h1 class="text-5xl font-bold py-2 dark:text-white decoration-slice underline rounded-lg underline-offset-[5px] decoration-red-600 tracking-widest cursor-pointer" data-aos="fade-up" data-aos-delay="200">
+                Videos
             </h1>
             <p class="text-gray-700 capitalize dark:text-gray-300" data-aos="fade-down">
                 Here are all the courses that we offer, from scratch to professionalism. We offer courses in several
@@ -180,15 +103,11 @@
 
             <x-video-card title="How To Make a Website Header Using HTML And CSS Step by Step" url="X5KqWpp6S38" />
 
-            <x-video-card
-                title="Personal Portfolio Website Using html and css only | How to create Personal Portfolio Website"
-                url="3YM3qaG4AMM" />
+            <x-video-card title="Personal Portfolio Website Using html and css only | How to create Personal Portfolio Website" url="3YM3qaG4AMM" />
 
             <x-video-card title="How To Make a Website Header Using HTML And CSS Step by Step" url="2ObrkfQ7wLA" />
 
-            <x-video-card
-                title="Personal Portfolio Website Using html and css only | How to create Personal Portfolio Website"
-                url="N5S_wtu1Emc" />
+            <x-video-card title="Personal Portfolio Website Using html and css only | How to create Personal Portfolio Website" url="N5S_wtu1Emc" />
 
             <x-video-card title="How To Make a Website Header Using HTML And CSS Step by Step" url="upSTOhfEATo" />
 
