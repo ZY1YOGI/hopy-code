@@ -1,0 +1,20 @@
+.home {
+  @apply flex items-center justify-center h-screen;
+}
+
+.home .div-text .btn i{
+  margin-left: 5px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+  line-height: 30px;
+  background-color: #fff;
+  color: #ed1d24;
+  border-radius: 50%;
+  position: relative;
+  left: 0;
+  transition: 0.3s;
+}
+.home .div-text .btn:hover i{
+  left: 10px;
+}

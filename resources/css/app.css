@@ -4,6 +4,7 @@
 @import "./init.css";
 @import "./components/loader.css";
 @import "./components/header.css";
+@import "./components/home.css";
 @import "./components/service.css";
 
 .border_gradient {
@@ -34,28 +35,6 @@
     text-shadow: 0 0 1px #00a550;
   }
 }
-
-
-.home .div-text .btn i{
-  margin-left: 5px;
-  width: 30px;
-  height: 30px;
-  text-align: center;
-  line-height: 30px;
-  background-color: #fff;
-  color: #ed1d24;
-  border-radius: 50%;
-  position: relative;
-  left: 0;
-  transition: 0.3s;
-}
-.home .div-text .btn:hover i{
-  left: 10px;
-}
-/* services */
-
-
-
 
 
 /* about-sec */

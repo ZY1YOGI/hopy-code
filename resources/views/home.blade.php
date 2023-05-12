@@ -1,7 +1,7 @@
 <x-app-layout title="Home">
 
-    {{--
-    <x-section name="main" class="flex items-center justify-center h-screen home">
+
+    <x-section name="main" class="home">
         <div class="w-[90%] h-full flex justify-between items-center">
             <div class="div-text text-[#121416] dark:text-[#e6e6e6] text-[40px] mb-5">
                 <h4 data-aos="fade-right">Welcome to</h4>
@@ -10,8 +10,7 @@
                     Learn how to use HTML, CSS, and JavaScript to create amazing <br />
                     and attractive web projects with our educational videos.
                 </p>
-                <a href="#"
-                    class="btn px-8 py-4 bg-[#ed1d24] text-white font-bold rounded-[30px] text-lg">Subsceribe Now
+                <a href="#" class="btn px-8 py-4 bg-[#ed1d24] text-white font-bold rounded-[30px] text-lg">Subsceribe Now
                     <i class="fa-solid fa-arrow-right"></i></a>
             </div>
             <div class="div-img relative mt-[50px]">
@@ -20,30 +19,38 @@
                     <div class="testimonial mySwiper">
                         <div class="testi-content swiper-wrapper">
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/asdasdasd454.png') }}
-                                    alt="" />
+                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/asdasdasd454.png') }} alt="" />
                             </div>
 
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/project13.png') }}
-                                    alt="" />
+                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/project13.png') }} alt="" />
                             </div>
 
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/project4.png') }}
-                                    alt="" />
+                                <img class="w-full h-[299px]" src="https://img.youtube.com/vi/MwQ_ikf8Bdc/maxresdefault.jpg" alt="" />
                             </div>
 
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/Portfolo.jpg') }}
-                                    alt="" />
+                                <img class="w-full h-[299px]" src="https://img.youtube.com/vi/2ObrkfQ7wLA/maxresdefault.jpg" alt="" />
+                            </div>
+
+                            <div class="slide swiper-slide">
+                                <img class="w-full h-[299px]" src="https://img.youtube.com/vi/3YM3qaG4AMM/maxresdefault.jpg" alt="" />
+                            </div>
+
+                            <div class="slide swiper-slide">
+                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/project4.png') }} alt="" />
+                            </div>
+
+                            <div class="slide swiper-slide">
+                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/Portfolo.jpg') }} alt="" />
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
-    </x-section> --}}
+    </x-section>
 
     <x-section name="services" class="service">
         <div class="text-center">
