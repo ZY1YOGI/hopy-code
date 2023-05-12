@@ -23,5 +23,5 @@
 }
 
 .btn-theme {
-  @apply fixed px-3 py-2 border -right-2 hover:bg-gray-900 hover:text-white dark:text-white hover:dark:bg-slate-700 rounded-xl top-36 border-stone-500;
+  @apply fixed px-3 py-2 border -right-2 hover:bg-gray-900 hover:text-white dark:text-white hover:dark:bg-slate-700 rounded-xl top-36 border-stone-500 z-50;
 }

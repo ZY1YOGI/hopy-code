@@ -44,31 +44,50 @@ new Swiper(".testimonial", {
 });
 
 
-const HTML_CODE = CodeMirror.fromTextArea(document.getElementById('html-code'), {
-  // mode: 'text/html',
-  lineNumbers: true,
-  theme: 'gruvbox-dark',
-  value: `
+ace.config.set('basePath', "https://unpkg.com/ace-builds@1.4.6/src-noconflict")
 
-                         <header>
-                     <nav>
-                         <img src="img/car-logo.png" class="logo" alt="">
-                         <div class="menu">
-                             <a href="#">Home</a>
-                             <a href="#">About</a>
-                             <a href="#">Features</a>
-                             <a href="#">Variations</a>
-                             <a href="#">Specials</a>
-                             <a href="#">Contact</a>
-                         </div>
+const editorHTML = ace.edit("code-html", {
+  mode: 'ace/mode/html',
+  theme: 'ace/theme/tomorrow_night',
+  highlightActiveLine: true,
+  showPrintMargin: false,
+  enableBasicAutocompletion: true,
+  enableSnippets: true,
+  enableLiveAutocompletion: true,
+  readOnly: true,
+})
 
-                         <div class="social">
-                             <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
-                             <a href="#"><i class="fa-brands fa-twitter"></i></a>
-                             <a href="#"><i class="fa-brands fa-instagram"></i></a>
-                         </div>
-                     </nav>
-                      </header>
-                     `
-});
+const editorCSS = ace.edit("code-css", {
+  mode: 'ace/mode/css',
+  theme: 'ace/theme/dracula',
+  highlightActiveLine: true,
+  showPrintMargin: false,
+  enableBasicAutocompletion: true,
+  enableSnippets: true,
+  enableLiveAutocompletion: true,
+  readOnly: true,
+})
 
+const editorJS = ace.edit("code-js", {
+  mode: 'ace/mode/javascript',
+  theme: 'ace/theme/dracula',
+  highlightActiveLine: true,
+  showPrintMargin: false,
+  enableBasicAutocompletion: true,
+  enableSnippets: true,
+  enableLiveAutocompletion: true,
+  readOnly: true,
+})
+
+
+const getFile = async (url, editor) => {
+  const DATA = await fetch(url)
+  const data = await DATA.text()
+  console.log(data);
+  editor.session.setValue(data);
+
+}
+
+getFile('http://localhost:8000/code/html.html', editorHTML)
+getFile('http://localhost:8000/code/css.css', editorCSS)
+getFile('http://localhost:8000/code/js.js', editorJS)
