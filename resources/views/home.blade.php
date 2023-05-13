@@ -3,7 +3,7 @@
 
     <x-section name="main" class="home">
         <div class="w-[90%] h-full flex justify-between items-center">
-            <div class="div-text text-[#121416] dark:text-[#e6e6e6] text-[40px] mb-5">
+            <div class="text-[#121416] dark:text-[#e6e6e6] text-[40px] mb-5">
                 <h4 data-aos="fade-right">Welcome to</h4>
                 <h1 class="text-[#ed1d24] font-black text-6xl mb-[8px]" data-aos="fade-left">Simple Web Code</h1>
                 <p class="text-[#898686] mb-[38px] text-lg capitalize">
@@ -13,37 +13,37 @@
                 <a href="#" class="btn px-8 py-4 bg-[#ed1d24] text-white font-bold rounded-[30px] text-lg">Subsceribe Now
                     <i class="fa-solid fa-arrow-right"></i></a>
             </div>
-            <div class="div-img relative mt-[50px]">
+            <div class="relative mt-[50px]  max-md:hidden">
                 <img class="w-[550px]" src={{ Vite::asset('resources/image/screen.png') }} alt="" />
                 <div class="absolute top-[18px] left-[22px] w-[510px] h-[299px] overflow-hidden">
                     <div class="testimonial mySwiper">
                         <div class="testi-content swiper-wrapper">
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/asdasdasd454.png') }} alt="" />
+                                <img class="" src={{ Vite::asset('resources/image/asdasdasd454.png') }} alt="" />
                             </div>
 
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/project13.png') }} alt="" />
+                                <img class="" src={{ Vite::asset('resources/image/project13.png') }} alt="" />
                             </div>
 
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src="https://img.youtube.com/vi/MwQ_ikf8Bdc/maxresdefault.jpg" alt="" />
+                                <img class="" src="https://img.youtube.com/vi/MwQ_ikf8Bdc/maxresdefault.jpg" alt="" />
                             </div>
 
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src="https://img.youtube.com/vi/2ObrkfQ7wLA/maxresdefault.jpg" alt="" />
+                                <img class="" src="https://img.youtube.com/vi/2ObrkfQ7wLA/maxresdefault.jpg" alt="" />
                             </div>
 
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src="https://img.youtube.com/vi/3YM3qaG4AMM/maxresdefault.jpg" alt="" />
+                                <img class="" src="https://img.youtube.com/vi/3YM3qaG4AMM/maxresdefault.jpg" alt="" />
                             </div>
 
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/project4.png') }} alt="" />
+                                <img class="" src={{ Vite::asset('resources/image/project4.png') }} alt="" />
                             </div>
 
                             <div class="slide swiper-slide">
-                                <img class="w-full h-[299px]" src={{ Vite::asset('resources/image/Portfolo.jpg') }} alt="" />
+                                <img class="" src={{ Vite::asset('resources/image/Portfolo.jpg') }} alt="" />
                             </div>
                         </div>
                     </div>

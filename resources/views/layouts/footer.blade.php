@@ -106,7 +106,7 @@
                             </svg>
                         </a>
                     </div>
-                    <p class="text-base text-body-color">&copy; 2019 Al-Jazira</p>
+                    <p class="text-base text-body-color">&copy; 2022 Simple Web Code</p>
                 </div>
             </div>
         </div>

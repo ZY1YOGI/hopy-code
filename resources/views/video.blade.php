@@ -1,9 +1,39 @@
 <x-app-layout title="How To Make a Landing Page | Ramadan Kareem Landing Page">
 
-    <x-section name="video-details" class="text-ce">
-        <h1>Lorem ipsum dolor sit amet consectetur adipisicing  suscipit! Aliquam eligendi voluptates optio.</h1>
+    <x-section name="video-details" class="container mx-auto my-5 flex max-md:flex-col">
+        <div class="frame-video h-[70vh] w-[75%] max-md:w-full max-md:h-[50vh]">
+            <h1 class="text-3xl dark:text-white text-shadow-light dark:text-shadow-dark py-3 max-md:text-2xl">How To Make a Website Header Using HTML And CSS Step by Step</h1>
+            <iframe class="w-full h-full rounded-md" src="https://www.youtube.com/embed/zXx_FHQuWt0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <div>
 
+                <p class="w-[70%]">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sit, illo, minus quam saepe consequatur
+                    illum nam neque, eum voluptate dolores quidem eius rerum. Nisi, minus! Tempore at officiis quos.
+                </p>
+            </div>
+        </div>
+        <div class="w-[20%] h-screen ml-8 mt-3 max-md:h-full max-md:w-full max-md:m-0">
 
+            <h1 class="text-xl dark:text-white text-shadow-light dark:text-shadow-dark py-5">Videos Recommend</h1>
+
+            <div class="gap-5 flex flex-col max-md:flex-row max-md:w-full overflow-scroll h-full w-full shadow-md py-3 rounded-md">
+                <x-video-card title="How To Make a Website Header Using HTML And CSS Step by Step" url="X5KqWpp6S38" />
+
+                <x-video-card title="Personal Portfolio Website Using html and css only | How to create Personal Portfolio Website" url="3YM3qaG4AMM" />
+
+                <x-video-card title="How To Make a Website Header Using HTML And CSS Step by Step" url="2ObrkfQ7wLA" />
+
+                <x-video-card title="Personal Portfolio Website Using html and css only | How to create Personal Portfolio Website" url="N5S_wtu1Emc" />
+
+                <x-video-card title="How To Make a Website Header Using HTML And CSS Step by Step" url="upSTOhfEATo" />
+
+                <x-video-card title="How To Make a Website Header Using HTML And CSS Step by Step" url="06R-eDOpj_w" />
+
+                <x-video-card title="Swiper Slider 3D-Coverflow Effect Using HTML CSS & Swiper.JS" url="MwQ_ikf8Bdc" />
+
+                <x-video-card title="How To Make a Landing Page | Ramadan Kareem Landing Page" url="uuung5rDwuw" />
+            </div>
+        </div>
     </x-section>
 
 

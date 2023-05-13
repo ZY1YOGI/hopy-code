@@ -28,12 +28,11 @@
 }
 
 @layer components {
-  .text-shadow {
-    text-shadow: 0 0 1px #00a550;
+  .text-shadow-dark {
+    text-shadow: 0 0 3px #b0bac6;
   }
-
-  .text-shadow-wh {
-    text-shadow: 0 0 1px #00a550;
+  .text-shadow-light {
+    text-shadow: 0 0 1.5px #161c24;
   }
 }
 
