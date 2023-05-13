@@ -1,17 +1,18 @@
 <x-app-layout title="How To Make a Landing Page | Ramadan Kareem Landing Page">
 
     <x-section name="video-details" class="container mx-auto my-5 flex max-md:flex-col">
-        <div class="frame-video h-[70vh] w-[75%] max-md:w-full max-md:h-[50vh]">
+        <div class="frame-video h-[70vh] w-[75%] max-md:w-full max-md:h-screen">
             <h1 class="text-3xl dark:text-white text-shadow-light dark:text-shadow-dark py-3 max-md:text-2xl">How To Make a Website Header Using HTML And CSS Step by Step</h1>
-            <iframe class="w-full h-full rounded-md" src="https://www.youtube.com/embed/zXx_FHQuWt0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe class="w-full h-full rounded-md max-md:h-[50%]" src="https://www.youtube.com/embed/zXx_FHQuWt0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
             <div>
 
-                <p class="w-[70%]">
+                <p class="w-[75%] text-lg max-md:w-[95%] max-md:px-1">
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quas sit, illo, minus quam saepe consequatur
                     illum nam neque, eum voluptate dolores quidem eius rerum. Nisi, minus! Tempore at officiis quos.
                 </p>
             </div>
         </div>
+
         <div class="w-[20%] h-screen ml-8 mt-3 max-md:h-full max-md:w-full max-md:m-0">
 
             <h1 class="text-xl dark:text-white text-shadow-light dark:text-shadow-dark py-5">Videos Recommend</h1>
@@ -38,7 +39,7 @@
 
 
 
-    <x-section name="source-code" class="flex justify-center items-center h-[80vh] px-[10px] max-md:flex-col max-md:space-y-5 my-5 space-x-3 max-md:space-x-0 dark:text-white">
+    <x-section name="source-code" class="flex justify-center mt-20 items-center h-[80vh] max-md:h-[150vh] px-[10px] max-md:flex-col max-md:space-y-5 my-5 space-x-3 max-md:space-x-0 dark:text-white">
 
         <x-section name="" class="h-full w-full">
             <h1 class="font-bold text-3xl">HTML</h1>
@@ -58,5 +59,11 @@
         </x-section>
 
     </x-section>
+
+
+
+
+
+
 
 </x-app-layout>
