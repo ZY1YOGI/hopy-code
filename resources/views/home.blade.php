@@ -1,7 +1,7 @@
 <x-app-layout title="Home">
 
 
-    {{-- <x-section name="main" class="home">
+    <x-section name="main" class="home">
         <div class="w-[90%] h-full flex justify-between items-center">
             <div class="div-text text-[#121416] dark:text-[#e6e6e6] text-[40px] mb-5">
                 <h4 data-aos="fade-right">Welcome to</h4>
@@ -50,7 +50,7 @@
                 </div>
             </div>
         </div>
-    </x-section> --}}
+    </x-section>
 
     <x-section name="services" class="service">
         <div class="text-center">
@@ -131,9 +131,5 @@
     <x-section name="more-videos" class="more-videos">
         <h1>More than 100 Videos for <br><span> Web Design</span></h1>
     </x-section>
-
-
-    <div class="border-4 border-red-600 h-[50vh]" id="html-code">
-    </div>
 
 </x-app-layout>
