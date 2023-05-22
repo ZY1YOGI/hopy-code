@@ -1,5 +1,15 @@
 <x-app-layout title="Home">
 
+    <x-slot:css>
+        {{-- SwiperCSS --}}
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+    </x-slot>
+
+    <x-slot:js>
+        {{-- SwiperJS --}}
+        <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
+    </x-slot>
+
 
     <x-section name="main" class="home">
         <div class="w-[90%] h-full flex justify-between items-center">

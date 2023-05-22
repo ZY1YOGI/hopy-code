@@ -24,24 +24,24 @@ window.addEventListener("DOMContentLoaded", function () {
 
 
 
-new Swiper(".testimonial", {
-  slidesPerView: 1,
-  grabCursor: true,
-  loop: true,
-  autoplay: {
-    delay: 1000,
-    disableOnInteraction: false,
-  },
-  speed: 500,
-  pagination: {
-    el: ".swiper-paginationn",
-    clickable: true,
-  },
-  navigation: {
-    nextEl: ".swiper-button-nextt",
-    prevEl: ".swiper-button-prevv",
-  },
-});
+// new Swiper(".testimonial", {
+//   slidesPerView: 1,
+//   grabCursor: true,
+//   loop: true,
+//   autoplay: {
+//     delay: 1000,
+//     disableOnInteraction: false,
+//   },
+//   speed: 500,
+//   pagination: {
+//     el: ".swiper-paginationn",
+//     clickable: true,
+//   },
+//   navigation: {
+//     nextEl: ".swiper-button-nextt",
+//     prevEl: ".swiper-button-prevv",
+//   },
+// });
 
 
 ace.config.set('basePath', "https://unpkg.com/ace-builds@1.4.6/src-noconflict")
@@ -83,11 +83,11 @@ const editorJS = ace.edit("code-js", {
 const getFile = async (url, editor) => {
   const DATA = await fetch(url)
   const data = await DATA.text()
-  console.log(data);
+  // console.log(data);
   editor.session.setValue(data);
 
 }
 
-getFile('http://localhost:8000/code/html.html', editorHTML)
-getFile('http://localhost:8000/code/css.css', editorCSS)
-getFile('http://localhost:8000/code/js.js', editorJS)
+getFile('http://localhost/code/html.html', editorHTML)
+getFile('http://localhost/code/style.css', editorCSS)
+getFile('http://localhost/code/script.js', editorJS)

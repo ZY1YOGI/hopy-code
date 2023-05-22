@@ -1,4 +1,3 @@
-<!-- ====== Footer Section Start -->
 <footer class="relative z-10 dark:text-white pt-20 pb-10 lg:pt-[120px] lg:pb-20 max-lg:px-5 overflow-hidden border_gradient border-t-4">
     <div class="container mx-auto">
         <div class="flex flex-wrap -mx-4">
@@ -148,4 +147,3 @@
         </span>
     </div>
 </footer>
-<!-- ====== Footer Section End -->

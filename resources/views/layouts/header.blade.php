@@ -9,7 +9,7 @@
         <x-ui.nav-link to="{{ route('home') }}" :active="request()->routeIs('home')">Home</x-ui.nav-link>
         <x-ui.nav-link to="{{ route('video') }}" :active="request()->routeIs('video')">Videos</x-ui.nav-link>
         <x-ui.nav-link to="{{ route('home') }}">Posts</x-ui.nav-link>
-        <x-ui.nav-link to="{{ route('home') }}">About Us</x-ui.nav-link>
+        <x-ui.nav-link to="{{ route('about') }}">About Us</x-ui.nav-link>
         <x-ui.nav-link to="{{ route('home') }}">Contact Us</x-ui.nav-link>
     </ul>
 

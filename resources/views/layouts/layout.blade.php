@@ -16,27 +16,18 @@
     {{-- Icon --}}
     <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
     {{-- Fonts --}}
-    {{-- <link rel="preconnect" href="https://fonts.googleapis.com"> --}}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
     {{-- <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" /> --}}
     <!-- Link Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    {{-- Swiper --}}
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
-    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js" defer></script>
     {{-- AOS --}}
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" />
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
-    {{-- CODE MIRROR --}}
-    {{-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/theme/dracula.min.css"/>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.css" />
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/codemirror.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/codemirror/6.65.7/mode/xml/xml.min.js"></script> --}}
-    {{-- ACE --}}
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.20.0/ace.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.20.0/ext-language_tools.min.js"></script>
-    {{-- Scripts And STYLS --}}
-    @vite(['resources/css/app.css', 'resources/js/app.js'])
 
+    {{ $css }}
+    {{ $js }}
+    {{-- Scripts And STYLS default --}}
+    @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="antialiased bg-body-light dark:bg-body-dark">
     @include('layouts.includes.loader')
