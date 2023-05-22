@@ -6,8 +6,6 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/ace/1.20.0/ext-language_tools.min.js"></script>
     </x-slot>
 
-
-
     <x-section name="video-details" class="container mx-auto my-5 flex max-md:flex-col">
         <div class="frame-video h-[70vh] w-[75%] max-md:w-full max-md:h-screen">
             <h1 class="text-3xl dark:text-white text-shadow-light dark:text-shadow-dark py-3 max-md:text-2xl">How To Make a Website Header Using HTML And CSS Step by Step</h1>
@@ -70,4 +68,5 @@
     <x-section name="live">
         <iframe id="live-project" src="http://localhost/code/html.html" name="live-project" class="w-[80%] h-[85vh] rounded-lg shadow-md mx-auto border-none" title="How To Make a Landing Page | Ramadan Kareem Landing Page"></iframe>
     </x-section>
+
 </x-app-layout>
